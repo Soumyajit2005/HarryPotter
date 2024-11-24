@@ -6,6 +6,7 @@ import Characters from "./pages/Characters/Characters";
 import Spells from "./pages/Spells/Spells";
 import Houses from "./pages/Houses/Houses";
 import Home from "./pages/Home/Home";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/characters" element={<Characters />} />
           <Route path="/spells" element={<Spells />} />
           <Route path="/houses" element={<Houses />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
